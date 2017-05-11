@@ -1,0 +1,12 @@
+[package]
+name = "glthing"
+version = "0.0.0"
+authors = ["xernobyl"]
+
+[dependencies]
+rand = "*"
+
+[target.x86_64-pc-windows-gnu.CDbax]
+rustc-link-lib = ["CDbax"]
+rustc-link-search = ["C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x64\\"]
+root = "C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x64\\"
